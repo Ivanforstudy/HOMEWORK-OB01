@@ -26,12 +26,11 @@ class Store:
             print(f"Курс '{item_name}' не найден в университете '{self.name}'.")
 
 
-# Создание объектов класса Store
 store1 = Store("ZEROCODER", "https://zerocoder.ru/")
 
 store2 = Store("ZEROCODER", "https://zerocoder.ru/")
 store3 = Store("ZEROCODER", "https://zerocoder.ru/")
-# Добавление товаров в магазины
+
 store1.add_item("Курс супердизайнеров", 1000000)
 store1.add_item("Курс супертестировщиков", 1000000)
 
